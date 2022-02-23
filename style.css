@@ -5,11 +5,14 @@ body {
 h1 {
   font-size: 50px;
 }
+h1 {
+  font-size: 40px;
+}
 
 .orange-color {
   color: orange;
 }
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 100px;
 }
@@ -38,4 +41,34 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.center {
+  text-align: center;
+}
+/* this experience-item class is css is used for box shadow in Experience section */
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  box-shadow: 10px 10px 20px gray;
+  border-radius: 10px;
+}
+#full-web {
+  border-image: linear-gradient(tomato, orange);
+  border-left: 7px solid;
+  border-image-slice: 1;
+}
+#baby-web {
+  border-image: linear-gradient(blue, cyan);
+  border-left: 7px solid;
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
 }
